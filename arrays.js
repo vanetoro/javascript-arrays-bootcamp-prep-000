@@ -14,23 +14,23 @@ var chocolateBars = [
   
  // ['butterfinger', ...chocolateBars];
   
-  function addElementToBeginningOfArray(arr, element){
+  function addElementToBeginningOfArray(arr, x){
     var newArr = arr.unshift(x);
     return newArr;
     
   }
 
-  function destructivelyAddElementToBeginningOfArray(arr,element){
+  function destructivelyAddElementToBeginningOfArray(arr,x){
     arr.unshift(x);
     return arr;
   }
   
-  function addElementToEndOfArray(arr,element){
+  function addElementToEndOfArray(arr,x){
     var newArr = arr.push(x)
     return newArr;
   }
   
-  function destructivelyAddElementToEndOfArray(arr,element){
+  function destructivelyAddElementToEndOfArray(arr,x){
     arr.push(x);
     return arr;
   }
