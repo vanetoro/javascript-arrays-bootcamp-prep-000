@@ -44,5 +44,8 @@ var chocolateBars = [
     return arr.shift()
   }
     
+  function removeElementFromBeginningOfArray(arr){
+    return arr.slice(1);
+  }  
   
   
