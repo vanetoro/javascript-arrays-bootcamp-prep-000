@@ -14,8 +14,8 @@ var chocolateBars = [
   
  // ['butterfinger', ...chocolateBars];
   
-  function addElementToBeginningOfArray(arr, x){
-    var newArr = arr.unshift(x);
+  function addElementToBeginningOfArray(arr, element){
+    var newArr = arr.unshift(element);
     return newArr;
     
   }
