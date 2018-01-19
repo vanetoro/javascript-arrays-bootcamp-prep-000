@@ -12,7 +12,7 @@ var chocolateBars = [
   'skittles'
   ]
   
-  ['butterfinger', ...chocolateBars];
+//  ['butterfinger', ...chocolateBars];
   
   function addElementToBeginningOfArray(arr, element){
     var newArr = arr.unshift(element);
